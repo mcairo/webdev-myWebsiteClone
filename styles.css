@@ -1,1 +1,39 @@
-/* CSS CODE HERE */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://www.redditinc.com/assets/images/site/homepage/corpsite-about_final-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav li{
+    display:inline;
+    float: right;
+    padding: 25px;
+}
+
+
+nav ul{
+    margin-right: 1400px;
+}
+
+#nav{
+    background-color: white;
+    width: 100vw;
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+
+#navimg{
+    height: 75px;
+    width: 100px; 
+    padding: 10px;
+    position: relative;
+    border-right: 1px solid #333333;
+
+}
