@@ -8,13 +8,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*------------------------------------- Nav Bar -------------------------- */
 nav li{
+    font-family: "benton sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16px;
     display:inline;
     float: right;
     padding: 25px;
+    color: #989a9c;
+    background-color: transparent;
+    margin-top: 10px;
 }
 
+
+nav li:nth-child(7){
+    font-weight: bold;
+}
 
 nav ul{
     margin-right: 1400px;
@@ -27,13 +36,36 @@ nav ul{
     margin: 0px;
     padding: 0px;
     position: fixed;
+    z-index: 10;
 }
 
 #navimg{
-    height: 75px;
-    width: 100px; 
-    padding: 10px;
+    height: 85px;
+    width: 120px;
+    border-right: 1px solid #989a9c;
     position: relative;
-    border-right: 1px solid #333333;
-
+    bottom: 10px;
 }
+
+/*----------------------- circle images-------------------------*/
+
+#greycircle{
+    float: right;
+    position: relative;
+    top: 42px;
+}
+
+
+
+
+
+/*--------------------------- intro-------------------------------*/
+
+#logo{
+    height: 90px;
+    position: relative;
+    left: 1150px;
+    top: 375px;
+}
+
+
