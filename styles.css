@@ -148,9 +148,12 @@ nav ul{
     padding: 5px;
     height: 25px;
     width: 143px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #visitbox a{
     color: white;
+    text-decoration: none;
 }
 
