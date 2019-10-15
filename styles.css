@@ -7,6 +7,7 @@ body{
     background-image: url(https://www.redditinc.com/assets/images/site/homepage/corpsite-about_final-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -72,7 +73,10 @@ nav ul{
     bottom: 150px;
 }
 
-
+#greyarrow{
+    height: 100px;
+    width: 200px;
+}
 
 /*--------------------------- intro-------------------------------*/
 
@@ -107,4 +111,46 @@ nav ul{
     left: 840px;
 }
 
+
+/*------------------------Visit Redit-----------------------*/
+
+
+#how{
+    font-family: "benton sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 1000px;
+    position: relative;
+    top: 150px;
+
+}
+
+#subhow{
+    color: rgba(255,255,255,0.7);
+    font-size: 19px;
+    line-height: 1.5;
+    width: 600px;
+    position: relative;
+    left: 950px;
+    top: 175px;
+    font-family: "benton sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+}
+
+#visitbox{
+    background-color: red;
+    position: relative;
+    top: 210px;
+    left: 1100px;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    height: 25px;
+    width: 143px;
+}
+
+#visitbox a{
+    color: white;
+}
 
