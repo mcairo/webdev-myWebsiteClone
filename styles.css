@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     font-family: "benton sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -9,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 0px;
 }
 
 
@@ -24,13 +26,15 @@ nav li{
     margin-top: 10px;
 }
 
-
-nav li:nth-child(7){
+#ab{
+    color: #31363a;
     font-weight: bold;
 }
 
+
+
 nav ul{
-    margin-right: 1400px;
+    margin-right: 1390px;
 }
 
 #nav{
@@ -49,6 +53,7 @@ nav ul{
     border-right: 1px solid #989a9c;
     position: relative;
     bottom: 10px;
+    padding-right: 15px;
 }
 
 /*----------------------- circle images-------------------------*/
@@ -329,10 +334,205 @@ nav ul{
     bottom: 30px;
 }
 
+
+#press{
+    text-decoration: none;
+    background-color: orangered;
+    position: relative;
+    top: 300px;
+    right: 250px;
+    display: inline-block;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    padding: 5px;
+    height: 25px;
+    width: 153px;
+    padding-left: 40px;
+    padding-right: 18px;
+    padding-top: 12px;
+    color: white;
+}
+
+#press a{
+    font-family: "bento sans", Arial, "Helvetica Neue",Helvetica,sans-serif;
+} 
+
 /*----------------------- Fotter -------------------------- */
 
 
 
-#footer h1{
-    padding-top: 400px;
+#footerhead{
+    padding-top: 150px;
+    color: white;
+    position: relative;
+    left: 1050px;
 }
+
+
+#subfoot{
+    color:rgba(255,255,255,0.7);
+    position: relative;
+    left: 970px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+
+
+#leftguy{
+    position: relative;
+    left: 900px;
+    z-index: 8;
+    padding-bottom: 0px;
+}
+
+
+#leftinfo p{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 920px;
+    bottom: 100px;
+    font-size: 22px;
+}
+
+#steve{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    left: 920px;
+    bottom: 100px;
+}
+
+
+
+#leftlink{
+    color: #3683d2;   
+    position: relative;
+    left: 980px;
+    bottom: 100px;
+    text-decoration: none;
+}
+
+
+#rightguy{
+    position: relative;
+    left: 1200px;
+    bottom: 365px;
+    z-index: 8;
+    padding-bottom: 0px;
+}
+
+#rightinfo{
+    color: white;   
+    position: relative;
+    left: 1230px;
+    bottom: 173px;
+}
+
+#rightinfo p{
+    font-size: 22px;
+}
+
+#alex{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#rightlink{
+    color: #3683d2;   
+    position: relative;
+    text-decoration: none;
+}
+
+#moon{
+    position: relative; 
+    left: 580px;
+    bottom: 590px;
+    padding-bottom: 0px;
+    
+}
+
+
+#moonimg{
+    width: 1200px;
+    padding-bottom: 0px;
+}
+
+/*------------------------- footer info ------------------------*/
+
+#footerinfo{
+    position: relative;
+    bottom: 600px;
+    background-color: #142736;;
+    height: 600px;
+    padding-bottom: 0px;
+}
+
+#footlist1 li{
+    color:white;
+    list-style-type: none;
+    padding: 20px;
+    font-family: inherit;
+    position: relative;
+    top: 50px;
+    left: 700px;
+}
+
+
+
+
+#footlist2 li{
+    color:white;
+    list-style-type: none;
+    padding: 20px;
+    font-family: inherit;
+    position: relative;
+    left: 900px;
+    bottom: 245px;
+}
+
+
+
+#footlist3 li{
+    color:white;
+    list-style-type: none;
+    padding: 20px;
+    font-family: inherit;
+    position: relative;
+    left: 1200px;
+    bottom: 483px;
+    font-weight: bold;
+}
+
+
+#footlist4 li{
+    color:white;
+    list-style-type: none;
+    padding: 20px;
+    font-family: inherit;
+    position: relative;
+    left: 1500px;
+    bottom: 780px;
+}
+
+#footlist4 ul{
+    padding: 0px;
+}
+
+#footlist4 li:first-child{
+    font-weight: bold;
+}
+
+
+#policy{
+    color: white;
+    position: relative;
+    bottom: 600px;
+    text-align: center;
+}
+
